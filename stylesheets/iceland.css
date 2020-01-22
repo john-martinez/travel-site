@@ -1,0 +1,8 @@
+/* Main Section styling */
+.cards {
+    min-height: 100vh;
+    padding-top: 100px;
+    background-image: url("../assets/iceland.jpg");
+    background-size: cover;
+    background-position: center;
+}

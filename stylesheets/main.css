@@ -1,0 +1,72 @@
+/* Set default spacing for sections */
+section {
+    padding: 3% 5%;
+}
+
+/* Hero Styles */
+.hero {
+    margin-top: 60px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.hero__text {
+    margin-right: 0;
+}
+.hero__text > *:not(*:last-child) {
+    margin-bottom: 5%;
+}
+
+.hero__text__header {
+    font-family: "Comic Sans MS";
+    color: #101d42;
+    font-size: 2rem;    
+}
+
+.hero__text__blurb {
+    text-align: justify;
+    text-align-last: left;
+}
+
+.hero__img {
+    height: auto;
+    width: 40%;
+}
+
+/* Card Styles */
+.cards__header {
+    color: #101d42;
+    font-size: 1.8rem;
+}
+
+.card__container > a:nth-child(1) > .card {
+    background-image: url("../assets/hawaii.jpg");
+}
+
+.card__container > a:nth-child(2) > .card {
+    background-image: url("../assets/iceland.jpg");
+}
+
+.card__container > a:nth-child(3) > .card  {
+    background-image: url("../assets/greece.jpg");
+}
+
+.card__container:hover > a > .card {
+    filter: blur(2px);
+}
+
+.card__container > a:hover > .card {
+    filter: none;
+    font-size: 1.5rem;
+}
+
+.card__container > a:hover > .card > .card__label {
+    border-bottom: 2px solid #e37889;
+}
+
+.card__container > a:hover > .card > .overlay {
+    background-color: rgba(0,0,0,0.7);
+}

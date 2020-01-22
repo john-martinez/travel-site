@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../stylesheets/global.css">
+    <link rel="stylesheet" href="../stylesheets/get-started.css">
+    <title>Get Started</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-bar__left">
+                <h2 class="nav-bar__logo"><a href="../index.html">Fly Away</a></h2>
+            </div>
+            <div class="nav-bar__right">
+                <ul class="nav-bar__right__links">
+                    <li> <a href="../index.html">Home</a></li>
+                    <li><a href="./hawaii.html">Hawaii</a> </li>
+                    <li><a href="./iceland.html">Iceland</a> </li>
+                    <li><a href="./greece.html">Greece</a> </li> 
+                    <li class="nav-bar__link--active"><a href="./get-started.html">Get Started</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="get-started">
+        <div class="overlay"></div>
+        <form class="form-container centered">
+            <h1 class="table__header text-centered">Get Started</h1>
+            <div class="table centered">
+                <div class="table__row">
+                    <div class="table__column table__column__left">
+                        <label class="top-left" for="full-name">Full Name<sup class="required">*</sup></label>
+                    </div>
+                    <div class="table__column table__column__right">
+                        <input class="table__form-field" type="text" name="full-name">
+                    </div>
+                </div>
+                <div class="table__row">
+                    <div class="table__column table__column__left">
+                        <label class="top-left" for="contact">Contact #<sup class="required">*</sup> </label class="top-left">
+                    </div>
+                    <div class="table__column table__column__right">
+                        <input class="table__form-field" type="text" name="contact">
+                    </div>
+                </div>
+                <div class="table__row">
+                    <div class="table__column table__column__left">
+                        <label class="top-left" for="email">Email Address<sup class="required">*</sup></label class="top-left">
+                    </div>
+                    <div class="table__column table__column__right">
+                        <input class="table__form-field" type="email" name="email">
+                    </div>
+                </div>  
+                <div class="table__row">
+                    <div class="table__column table__column__left">
+                        <label class="top-left" for="packages">Package<sup class="required">*</sup></label class="top-left">
+                    </div>
+                    <div class="table__column table__column__right">
+                        <input type="checkbox" name="hawaii"> 
+                        <label for="Hawaii">Hawaii</label>
+                        <input type="checkbox" name="iceland"> 
+                        <label for="Iceland">Iceland</label>
+                        <input type="checkbox" name="greece"> 
+                        <label for="Greece">Greece</label>
+                    </div>
+                </div> 
+                <div class="table__row">
+                    <div class="table__column table__column__left">
+                        <label class="top-left" for="message">Message</label class="top-left">
+                    </div>
+                    <div class="table__column table__column__right">
+                        <textarea class="table__form-field"  name="message" rows="7"></textarea>
+                    </div>
+                </div>  
+                <div class="table__row text-centered">
+                    <a class="button" href="">Submit</a>
+                </div>  
+            </div>
+        </form>
+    </section>
+</body>
+</html>
